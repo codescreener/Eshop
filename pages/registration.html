@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>E-shop</title>
+  <link rel="stylesheet"  href="../style/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+  
+</head>
+<body>
+   <div>
+    <header id="head">
+      <div>
+        <ul id="logo">
+        <li><h2> <i><b>E</b></i>-<b>Shop</b></h2> </li><br>
+        <li><em> <h6>A digital plateform for you</h6> </em></li>
+        </ul>
+      </div>
+         
+       <div class="menu2">
+        <nav id="nav1">   
+          <ul id=menu2>
+            <a href="../index.html" title="Go to home"><li>Home</li></a>
+            <a href="account.html" title="Manage account"><li>Account</li></a>
+            <a href="nearby.html" title="Search for Nearby"><li>Nearby</li></a>
+            <a href="wishlist.html" title="Your wishlist"><li>Wishlist</li></a>
+            <div ></div>
+          </ul>   
+          </nav>
+       </div>
+    </header>
+
+
+
+      <br>
+    <div class="container col-md-6" style="background-color: lightblue; min-height: 500px">
+        
+        <br><br>
+        <div>
+          <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+          <div class="form-group">
+            <label for="user"><strong>Username</strong></label>
+            <input type="text" id="user" name="user" class="form-control">             
+           </div> 
+           <div class="form-group">
+            <label for="pass"><strong>Password</strong></label>
+            <input type="password" id="pass" name="password" class="form-control">            
+           </div>
+           <div class="form-group">
+              <label for="firstname"><strong>First Name</strong></label>
+              <input type="text" name="firstname" name="first" class="form-control">
+           </div>
+           <div class="form-group">
+              <label for="lastname"><strong>Middle Name</strong></label>
+              <input type="text" name="middlename" name="middle" class="form-control">
+           </div>
+           
+           <div class="form-group">
+              <label for="lastname"><strong>Last Name</strong></label>
+              <input type="text" name="lastname" name="last" class="form-control">
+           </div>
+           <div class="form-group">
+             <label for="email"><strong>E-mail</strong></label>
+             <input type="email" name="email" class="form-control">
+           </div>
+           <div class="form-group">
+             <label for="number"><strong>Mobile Number</strong></label>
+             <input type="number" name="number" class="form-control">
+           </div>
+           <div class="form-group">
+             <label for="gender"><strong>Gender</strong></label><br>
+              <label>Male <input type="radio" name="gender" value="male"> </label> <label>Female <input type="radio" name="gender" value="female"></label>
+           </div>
+  
+           <div class="form-group">
+             <label for="address"><strong>Address</strong></label>
+             <textarea name="address" class="form-control"></textarea>
+           </div>
+           <br>
+           <div class="form-group">
+
+             <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the <a href="privacy.html#terms-conditions" title="terms and conditions" style="color: blue">Terms and Conditions and Privacy Policy</a>
+          
+           <input class="btn btn-danger btn-block" type="submit" name="submit" value="submit">
+           </div>
+           
+          </form>
+        </div>
+       
+    </div>
+
+
+
+     
+     <footer id="foot"> 
+      <nav  id="menu3" >
+        <ul>
+          <li><a href="about_us.html" title="Know about us" >About us</a></li>
+          <li> <a href="privacy.html" title="Our terms and condition for privacy">privacy terms</a> </li>
+          <li> <a href="services.html" title="Our services">Services </a></li>
+          <li> <a href="contact.html" title="Contact us">Contact</a> </li>
+        </ul>
+      </nav>
+      <h5 align="center" style="color: black"><i><b>E</b></i>-<b>Shop </b>Copyright &copy;2020 </h5> 
+     </footer>
+      
+    </div>
+
+</body>
+
+</html>
